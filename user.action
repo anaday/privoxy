@@ -96,7 +96,6 @@ allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
 .google.com
 .getpocket.com
 .flipboard.com
-.pluto.tv
 .pbs.org
 .192.168.0.*
 .127.0.0.1
@@ -157,11 +156,11 @@ www.example.com/nasty-ads/sponsor.gif
 /Realmedia/ads/
 ar.atwola.com/
 .shared.comcast.net
-.iadtest.qwapi.com
-.outbrain.com
-.taboola.com
-.gravity.com
+.iadctest.qwapi.com
 .addthis.com
+.gravity.com/
+.taboola.com/
+.outbrain.com/
 
 # Now you noticed that the default configuration breaks Forbes
 # Magazine, but you were too lazy to find out which action is the
@@ -175,7 +174,6 @@ ar.atwola.com/
 #.forbes.com
 .msnbc.com
 .apple.com
-.www.apple.com
 .itunes.apple.com
 .pluto.tv
 .pgl.yoyo.org
@@ -183,6 +181,15 @@ ar.atwola.com/
 .instagram.com
 .imdb.com
 .adafruit.com
+.walmart.com
+.mailimate.com
+.xfinitytv.comcast.net
+.mlb.com
+.play.spotify.com
+.washingtonpost.com
+.theweek.com
+.cc.com
+.popularmechanics.com
 
 # Here are some sites we wish to support, and we will allow their ads
 # through.
