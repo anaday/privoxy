@@ -313,7 +313,11 @@
 \.ad\.json\?
 \.ad\.page\.
 \.ad\.premiere\.
+\.ad/content/
+\.ad/positions/
 \.ad/script/
+\.ad/scripts/
+\.ad/tag\.
 \.ad1\.nspace
 \.adbanner\.
 \.adbutler-
@@ -638,6 +642,8 @@
 /abnl/\?narodads[/&:?=_]
 /about-these-ads\.
 /absolutebm\.aspx\?
+/abvAds_
+/AbvProductAds/.*
 /acc_random=
 /active-ad-
 /ad%20banners/.*
@@ -711,6 +717,7 @@
 /ad-logger/.*
 /ad-manager/.*
 /ad-managment/.*
+/ad-maven-
 /ad-methods\.
 /ad-minister-
 /ad-minister\.
@@ -1713,6 +1720,7 @@
 /adpop\.
 /adpop32\.
 /adpopup\.
+/adPositions\.
 /adpositionsizein-
 /AdPostInjectAsync\.
 /adprime\.
@@ -2105,8 +2113,11 @@
 /ads468\.
 /ads468x60\.
 /ads468x60_
+/ads4j\.
+/ads4n\.
 /ads5\.
 /ads5/.*
+/ads5t\.
 /ads6\.
 /ads6/.*
 /ads600-
@@ -2179,6 +2190,7 @@
 /ads_premium\.
 /ads_pro/.*
 /ads_r\.
+/ads_redirect\.
 /ads_reporting/.*
 /ads_server_
 /ads_show_
@@ -2393,6 +2405,7 @@
 /adspeeler/.*
 /adsplay\.
 /Adsplex-
+/adsplupu\.
 /adsponsor\.
 /adspot\.
 /adspot/.*
@@ -2792,6 +2805,7 @@
 /advtemplate/.*
 /advtemplate_
 /advweb\.
+/AdvWindow/.*
 /advzones/.*
 /adw\.shtml
 /adw2\.shtml
@@ -2858,6 +2872,7 @@
 /aff_ad\?
 /aff_banners/.*
 /aff_frame\.
+/aff_i\?offer_id=
 /affad\?
 /affads/.*
 /affbanner/.*
@@ -3494,6 +3509,7 @@
 /displayads2\.
 /displayads3\.
 /displayadsiframe\.
+/displaybanner/.*
 /div-ads\.
 /divad/.*
 /dlfeatads\.
@@ -3572,6 +3588,7 @@
 /ems/ads\.
 /en/ads/.*
 /eng/ads/.*
+/eplanningv4\.
 /eporner-banner-
 /ept_in\.php\?
 /ero-1\.
@@ -4168,6 +4185,7 @@
 /javascript/ads/.*
 /javascript/oas\.
 /javascript/oas\?
+/javascripts/ads\.
 /javascripts/ads/.*
 /jcorner\.php\?partner=
 /jitads\.
@@ -4623,6 +4641,7 @@
 /photo728ad\.
 /photoad\.
 /photoads/.*
+/photoflipper/ads/.*
 /photogallaryads\.
 /php/ad/.*
 /php/ads/.*
@@ -4668,6 +4687,7 @@
 /pop-under\.
 /pop\.js$
 /pop2\.js$
+/pop\?tid=
 /pop_ad\.
 /pop_adfy\.
 /pop_camgirlcity\.
@@ -5414,6 +5434,7 @@
 /upsellingads/.*
 /us-ads\.
 /usenext16\.
+/user/ads\?
 /user_ads/.*
 /userad\.
 /userad/.*
@@ -7119,6 +7140,7 @@ _a468x60\.
 .cursecdn\.com/banner/
 .customcodebydan\.com/images/banner\.gif
 .d13czkep7ax7nj\.cloudfront\.net[/&:?=_]
+.d140sbu1b1m3h0\.cloudfront\.net[/&:?=_]
 .d15565yqt7pv7r\.cloudfront\.net[/&:?=_]
 .d15gt9gwxw5wu0\.cloudfront\.net[/&:?=_]
 .d17f2fxw547952\.cloudfront\.net[/&:?=_]
@@ -7351,7 +7373,6 @@ _a468x60\.
 .globalprocash\.com/banner125\.gif
 .gmstatic\.net[/&:?=_].*/amazonbadge\.png
 .gmstatic\.net[/&:?=_].*/itunesbadge\.png
-.go2cloud\.org/aff_i\?
 .goadv\.com[/&:?=_].*/ads\.js
 .gogousenet\.com[/&:?=_].*/promo\.cgi
 .gogousenet\.com[/&:?=_].*/promo2\.cgi
@@ -7471,6 +7492,7 @@ _a468x60\.
 .mb\.zam\.com[/&:?=_]
 .mcclatchyinteractive\.com/creative/
 .mdpcdn\.com[/&:?=_].*/gpt/
+.media\.complex\.com/videos/prerolls/
 .media\.enimgs\.net/brand/files/escalatenetwork/
 .mediaon\.com/moneymoney/
 .mediaspanonline\.com[/&:?=_].*-Takeover-
@@ -7837,6 +7859,7 @@ _a468x60\.
 .affiliates\.thrixxx\.com[/&:?=_]
 .allanalpass\.com/visitScript/
 .ambya\.com/potdc/
+.animalsexfun\.com/baner/
 .ard\.sweetdiscreet\.com[/&:?=_]
 .asianbutterflies\.com/potd/
 .asktiava\.com/promotion/
@@ -7890,6 +7913,7 @@ _a468x60\.
 .freshnews\.su/get_tizers\.php\?
 .gammasites\.com/pornication/pc_browsable\.php\?
 .geo\.cliphunter\.com[/&:?=_]
+.geo\.frtya\.com[/&:?=_]
 .geobanner\.adultfriendfinder\.com[/&:?=_]
 .geobanner\.alt\.com[/&:?=_]
 .geobanner\.socialflirt\.com[/&:?=_]
@@ -8785,7 +8809,7 @@ _a468x60\.
 .drhinternet\.net/mwimgsent/
 .drivearchive\.co\.uk/amazon/
 .drivearchive\.co\.uk/images/amazon\.
-.driverdb\.com/campaigns/banners/
+.driverdb\.com[/&:?=_].*/banners/
 .droidgamers\.com/images/banners/
 .dsogaming\.com/interstitial/
 .dubcnm\.com/Adon/
@@ -8825,6 +8849,7 @@ _a468x60\.
 .ecostream\.tv/assets/js/pu\.min\.js
 .ecostream\.tv/js/pu\.js
 .ed2k\.2x4u\.de/mfc/
+.edmunds\.com/api/savesegment\?
 .educationbusinessuk\.net/images/stage\.gif
 .egamer\.co\.za[/&:?=_].*-background-
 .ehow\.co\.uk/frames/directas_
@@ -8914,6 +8939,7 @@ _a468x60\.
 .extratorrent\.cc/scripts/pp_
 .extremeoverclocking\.com/template_images/it120x240\.gif
 .ezmoviestv\.com[/&:?=_].*/ad-for-ezmovies\.png
+.eztv\.ag/js/openback.*\.js
 .f1today\.net[/&:?=_].*/sponsors/
 .faadooengineers\.com/ads/
 .facenfacts\.com[/&:?=_].*/ads/
@@ -8962,6 +8988,7 @@ _a468x60\.
 .filespart\.com/ot/fast\.aspx\?
 .filespazz\.com/imx/template_r2_c3\.jpg
 .filespazz\.com[/&:?=_].*/copyartwork_side_banner\.gif
+.filestream\.me/requirements/images/cialis_generic\.gif
 .filestream\.me/requirements/images/ed\.gif
 .filipinojournal\.com/images/banners/
 .filmey\.com/Filmey\.Ad\.js
@@ -9058,6 +9085,8 @@ _a468x60\.
 .freenode\.net/images/freenode_osuosl\.png
 .freepornsubmits\.com/ads/
 .freeroms\.com/bigbox\.html
+.freeroms\.com/bigbox_
+.freeroms\.com/skyscraper_
 .freesoftwaremagazine\.com/extras/
 .freetv-video\.ca[/&:?=_].*/popover-load-js\.php\?
 .freetypinggame\.net/burst720\.asp
@@ -10945,6 +10974,7 @@ _a468x60\.
 .thetvdb\.com/images/jriver_banner\.png
 .thevideo\.me/cgi-bin/get_creatives\.cgi\?
 .thevideo\.me/creatives/
+.thevideo\.me/js/popup\.min\.js
 .thevoicebw\.com[/&:?=_].*325x290\.jpg
 .thewb\.com/thewb/swf/tmz-adblock/
 .thewindowsclub\.com[/&:?=_].*/banner_
@@ -11028,6 +11058,7 @@ _a468x60\.
 .trackitdown\.net/skins/.*_campaign/
 .tracksat\.com[/&:?=_].*/banners/
 .tradewinds\.vi/images/banners/
+.traduguide\.com/banner/
 .trailrunnermag\.com/images/takeovers/
 .trgoals\.es/adk\.html
 .tribune\.com\.ng/images/banners/
@@ -11252,6 +11283,7 @@ _a468x60\.
 .warriorforum\.com/vbppb/
 .washingtonpost\.com/wp-srv/javascript/piggy-back-on-ads\.js
 .washpost\.com[/&:?=_].*/cmag_sponsor3\.php\?
+.washtimes\.com/js/ab_proxy\.
 .washtimes\.com/static/images/SelectAutoWeather_v2\.gif
 .watchcartoononline\.com/inc/siteskin\.
 .watchcartoononline\.com[/&:?=_].*/530x90\.
@@ -11316,6 +11348,7 @@ _a468x60\.
 .whatsabyte\.com/images/Acronis_Banners/
 .whatsnewonnetflix\.com/assets/blockless-ad-
 .whatson\.co\.za/img/hp\.png
+.whatsonnamibia\.com/images/banners/
 .whatsonstage\.com/images/sitetakeover/
 .whatsontv\.co\.uk[/&:?=_].*/promo/
 .whatsthescore\.com/logos/icons/bookmakers/
@@ -11583,6 +11616,7 @@ _a468x60\.
 .amateur-streams\.com[/&:?=_].*/popup\.js
 .amateuralbum\.net/affb\.html
 .amateurfarm\.net/layer\.js
+.analpornpix\.com/agent\.php\?
 .analtubegirls\.com/js/realamateurtube\.js
 .andtube\.com/ban_
 .angelshack\.com/images/under-video\.png
@@ -11672,6 +11706,7 @@ _a468x60\.
 .diamond-tgp\.com/fp\.js
 .dickbig\.net/scr/
 .dirtypriest\.com/sexpics/
+.dixyporn\.com/include/
 .dominationtube\.com/exit\.js
 .dot\.eporner\.com[/&:?=_]
 .dot2\.eporner\.com[/&:?=_]
@@ -11751,6 +11786,7 @@ _a468x60\.
 .goldporntube\.com/iframes/
 .gotgayporn\.com/Watermarks/
 .grannysexforum\.com/filter\.php
+.gspcdn\.com[/&:?=_].*/banners/
 .h2porn\.com/contents/content_sources/
 .hanksgalleries\.com/aff-
 .hanksgalleries\.com/gallery-
@@ -11770,6 +11806,7 @@ _a468x60\.
 .hdporn\.in/js/pops2\.
 .hdporn\.net/images/hd-porn-banner\.gif
 .hdzog\.com/contents/content_sources/
+.hdzog\.com/contents/cst/
 .hdzog\.com/hdzog\.php\?t_sid=
 .heavy-r\.com/a/
 .heavy-r\.com/js/imbox\.js
@@ -12274,6 +12311,7 @@ _a468x60\.
 .xogogo\.com/images/latestpt\.gif
 .xtravids\.com/pop\.php
 .xvideohost\.com/hor_banner\.php
+.xxnxx\.eu/index\.php\?xyz_lbx=
 .xxvideo\.us/ad728x15
 .xxvideo\.us/bnr\.js
 .xxvideo\.us/playertext\.html
@@ -12894,6 +12932,7 @@ _a468x60\.
 .auditude\.com/player/js/lib/aud\.html5player\.js
 .autogespot\..*/JavaScript/ads\.js\?
 .autolikergroup\.com/advertisement\.js
+.backin\.net/advertisement\.js
 .beelink\.in/advertisement\.js
 .bestofmedia\.com[/&:?=_].*/advertisement\.js
 .bestream\.tv/advert.*\.js
@@ -12954,6 +12993,7 @@ _a468x60\.
 .funniermoments\.com/adframe\.js
 .gallery\.aethereality\.net/advertisement\.js
 .gallerynova\.se[/&:?=_].*/advertisement\.js
+.gamereactor\.net/advertisement\.js
 .gamersconnexion\.com/js/advert\.js
 .games\.latimes\.com/Scripts/advert\.js
 .gameshark\.com/images/ads/
@@ -13131,6 +13171,7 @@ _a468x60\.
 .webtv\.rs/media/blic/advertisement\.jpg
 .welovebtc\.com/show_ads\.js
 .weshare\.me/fuckadblock\.js
+.windows7themes\.net/wp-content/advert\.js
 .world-of-hentai\.to/advertisement\.js
 .yasni\..*/adframe\.js
 .yellowbridge\.com/ad/show_ads\.js
@@ -13297,22 +13338,18 @@ _a468x60\.
 .disquscdn\.com[/&:?=_]
 .explosm\.net/favicons/favicon
 .explosm\.net/show/thumbnails/
-.factslides\.com/imgs/
 .files\.explosm\.net/avatars/
 .files\.explosm\.net/rcg/
 .files\.explosm\.net/thumbs/
 .fod4\.com[/&:?=_]
 .graph\.facebook\.com[/&:?=_]
 .gravatar\.com/avatar
-.images.*\.aplus\.com/uc-up/
 .images\.performgroup\.com[/&:?=_]
 .images\.sportsworldnews\.com[/&:?=_]
 .img2\.tfd\.com[/&:?=_]
 .launch\.newsinc\.com[/&:?=_]
 .loggly\.cheatsheet\.com/inputs/
 .netdna-cdn\.com/wp-content/
-.oddee\.com/_media/imgs/
-.oddee\.com/imgs/
 .pinterest\.com[/&:?=_]
 .po\.st/share/
 .po\.st/static/
@@ -13322,7 +13359,6 @@ _a468x60\.
 .printfriendly\.com[/&:?=_]
 .shopify\.com[/&:?=_]
 .smimg\.net[/&:?=_]
-.strangestproducts\.com/imgs/
 .theblacksphere-wpengine\.netdna-ssl\.com[/&:?=_]
 .twimg\.com[/&:?=_]
 .twitter\.com[/&:?=_]
@@ -13653,10 +13689,7 @@ _a468x60\.
 .www\.google\.com/images/icons/feature/adsense_
 .www\.google\.com/images/icons/product/adsense-
 .advertise\.bingads\.microsoft\.com/wwimages/search/global/
-.ssl-images-amazon\.com/images/.*/assoc/
-.ssl-images-amazon\.com/images/.*/associate/
-.ssl-images-amazon\.com/images/.*/associates/
-.ssl-images-amazon\.com/images/.*_assoc_
+.ssl-images-amazon\.com/images/
 -120x60-
 -120x60\.
 _120_60\.
@@ -13714,6 +13747,7 @@ _300x250\.
 .redtube\.com/_Incapsula_Resource\?
 .redtube\.com/_thumbs/
 .redtubefiles\.com[/&:?=_]
+.spankwire\.phncdn\.com[/&:?=_]
 .static\.tube8\.phncdn\.com[/&:?=_]
 .tube8\.com/_Incapsula_Resource\?
 .tube8\.com/images/

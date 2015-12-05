@@ -73,3 +73,12 @@
 #     be save, while '?' will sooner or later cause conflicts with $url.
 # 
 #################################################################################
+
+FILTER: trump Replace all "Trump" with "Chump"
+s/\bTrump\b/Chump/g
+
+FILTER: fusion Remove facebook popup
+s/reveal-modal//g
+
+FILTER: guardian Remove top ad bar
+s/--reveal/style=\" display:none\"/

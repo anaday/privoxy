@@ -238,3 +238,12 @@ ar.atwola.com/
 #
 #{+block{Facebook "like" and similar tracking URLs.}}
 #www.facebook.com/(extern|plugins)/(login_status|like(box)?|activity|fan)\.php
+
+{+filter{fusion}}
+.fusion.net
+
+{+filter{trump}}
+/
+
+{+filter{guardian}}
+.theguardian.com

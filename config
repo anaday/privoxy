@@ -394,6 +394,9 @@ actionsfile malware.user.action
 actionsfile disconnect.user.action
 actionsfile tld.user.action
 actionsfile whitelist.user.action
+actionsfile easyprivacy.script.action
+actionsfile fanboy-annoyance.script.action
+
 #
 #  2.6. filterfile
 #  ================
@@ -440,6 +443,9 @@ actionsfile whitelist.user.action
 filterfile default.filter
 filterfile user.filter      # User customizations
 filterfile easylist.script.filter
+filterfile easyprivacy.script.filter
+filterfile fanboy-annoyance.script.filter
+
 #
 #  2.7. logfile
 #  =============
