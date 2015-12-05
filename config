@@ -386,7 +386,6 @@ logdir /usr/local/var/log/privoxy
 actionsfile match-all.action # Actions that are applied to all sites and maybe overruled later on.
 actionsfile default.action   # Main actions file
 actionsfile user.action      # User customizations
-actionsfile pgl.user.action       # Blocking ad servers enumerated on pgl.yoyo.org
 actionsfile easylist.script.action
 actionsfile spam.user.action
 actionsfile pgl.user.action
@@ -395,6 +394,7 @@ actionsfile disconnect.user.action
 actionsfile tld.user.action
 actionsfile whitelist.user.action
 actionsfile easyprivacy.script.action
+actionsfile enhancedstats.script.action
 actionsfile fanboy-annoyance.script.action
 
 #
@@ -444,6 +444,7 @@ filterfile default.filter
 filterfile user.filter      # User customizations
 filterfile easylist.script.filter
 filterfile easyprivacy.script.filter
+filterfile enhancedstats.script.filter
 filterfile fanboy-annoyance.script.filter
 
 #
